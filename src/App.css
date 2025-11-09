@@ -1,0 +1,68 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* TodoForm Styles */
+.App form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.App input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.App button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.App button:hover {
+  background-color: #449d44;
+}
+
+/* TodoList Styles */
+.App ul {
+  list-style: none;
+  padding: 0;
+}
+
+.App li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.App li:last-child {
+  border-bottom: none;
+}
+
+.App input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.App span {
+  flex-grow: 1;
+  word-break: break-word;
+}
